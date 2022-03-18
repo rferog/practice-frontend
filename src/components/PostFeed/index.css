@@ -1,0 +1,11 @@
+.default-post-container {
+    display: flex;
+    cursor: pointer;
+    background-color: rgb(24, 24, 25);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 598px;
+}

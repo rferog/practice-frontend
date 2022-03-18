@@ -1,0 +1,26 @@
+.topics-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #181819;
+    border: 1px solid #808080;
+    border-bottom: none;
+    color: #ffffff;
+    width: 310px;
+}
+
+.topic-cell, .topic-cell:visited, .topic-cell:hover, .topic-cell:active {
+    color: #ffffff;
+    display: flex;
+    border-bottom: 1px solid #808080;
+    margin: 0;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+.pagination-button, .pagination-button:visited, .pagination-button:hover, .pagination-button:active {
+    background-color: #181819;
+    margin-top: 10px;
+    width: 128px;
+    border: 1px solid #808080;
+    border-radius: 9999px;
+}

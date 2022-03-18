@@ -1,0 +1,64 @@
+.comments-container {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    background-color: #181819;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-decoration: none;
+    width: 640px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #808080;
+    padding: 0px 10px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.pa-5 {
+    padding: 5px;
+}
+
+.comment-reply {
+    padding-bottom: 10px;
+}
+
+.comment-cancel-button {
+    margin-left: 10px;
+}
+
+.comment-reply-button {
+    cursor: pointer;
+}
+
+.scene-post-container {
+    display: flex;
+    padding: 48px 24px 20px 24px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.scene-post-content {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px 0px 24px;
+}
+
+.scene-topic-description {
+    display: flex;
+    margin: 15px 0px 0px 24px;
+}

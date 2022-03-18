@@ -1,0 +1,80 @@
+.arrow {
+    display: flex!important;
+    flex-direction: column;
+    align-items: center!important;
+    background-color: rgb(24, 24, 25)!important;
+    border: none!important;
+    padding-top: 3px!important;
+    margin-right: 5px;
+}
+
+.arrow:hover {
+    background-color: #272729!important;
+}
+
+.arrow:focus {
+    box-shadow: none!important;
+}
+
+.generic {
+    display: flex!important;
+    align-items: center;
+    background-color: rgb(24, 24, 25)!important;
+    border: 1px solid rgb(128, 128, 128)!important;
+    font-family: 'Courier New', Courier, monospace!important;
+    font-weight: 800!important;
+    padding-top: 9px!important;
+    margin-right: 5px;
+    white-space: nowrap;
+}
+
+.generic:focus {
+    box-shadow: none!important;
+}
+
+.user-buttons {
+    background-color: rgb(24, 24, 25)!important;
+    border: none!important;
+    padding-top: 3px!important;
+    margin-right: 5px;
+}
+
+.user-buttons:hover {
+    background-color: #272729!important;
+}
+
+.user-buttons:focus {
+    box-shadow: none!important;
+}
+
+.moon {
+    background-color: rgb(24, 24, 25)!important;
+    border: none!important;
+    padding-top: 3px!important;
+    margin-right: 5px;
+}
+
+.moon:hover {
+    background-color: #272729!important;
+}
+
+.moon:focus {
+    box-shadow: none!important;
+}
+
+.order {
+    background-color: rgb(24, 24, 25)!important;
+    border: none!important;
+    font-family: 'Courier New', Courier, monospace!important;
+    font-weight: 900!important;
+    color: rgb(129, 131, 132)!important;
+    white-space: nowrap;
+}
+
+.order:focus {
+    box-shadow: none!important;
+}
+
+.order:hover {
+    background-color: #272729!important;
+}
