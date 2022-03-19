@@ -41,7 +41,7 @@ const refreshLink = new TokenRefreshLink({
     if (!token) {
       return null;
     }
-    const response = await fetch(`http://ec2-52-90-57-24.compute-1.amazonaws.com:8000/graphql`, {
+    const response = await fetch(`https://ec2-52-90-57-24.compute-1.amazonaws.com:8000/graphql`, {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
@@ -77,7 +77,7 @@ const refreshLink = new TokenRefreshLink({
 });
 
 const httpLink = createHttpLink({
-  uri: 'http://ec2-52-90-57-24.compute-1.amazonaws.com:8000/graphql',
+  uri: 'https://ec2-52-90-57-24.compute-1.amazonaws.com:8000/graphql',
 });
 
 const authLink = setContext(() => {
