@@ -41,7 +41,7 @@ const refreshLink = new TokenRefreshLink({
     if (!token) {
       return null;
     }
-    const response = await fetch(`http://18.208.130.239/graphql`, {
+    const response = await fetch(`https://rferog.xyz/graphql`, {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
@@ -77,7 +77,7 @@ const refreshLink = new TokenRefreshLink({
 });
 
 const httpLink = createHttpLink({
-  uri: 'http://18.208.130.239/graphql',
+  uri: 'https://rferog.xyz/graphql',
 });
 
 const authLink = setContext(() => {
